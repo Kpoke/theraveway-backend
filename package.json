@@ -1,0 +1,24 @@
+{
+  "name": "eldeporte",
+  "version": "1.0.0",
+  "description": "Sports Entertainment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "author": "Kpoke",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cloudinary": "^1.22.0",
+    "cors": "^2.8.5",
+    "datauri": "^3.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.19",
+    "multer": "^1.4.2",
+    "request-ip": "^2.1.3"
+  }
+}
