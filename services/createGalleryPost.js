@@ -9,8 +9,8 @@ const createGalleryImagePost = async (postObject, user, multerImage, query) => {
   const uniqueFilename = new Date().toISOString();
   let newPost;
   let cloudinaryOptions = {
-    public_id: `elDeporte/${uniqueFilename}`,
-    tags: `elDeporte/gallery`,
+    public_id: `theraveway/${uniqueFilename}`,
+    tags: `theraveway/gallery`,
   };
   if (video !== undefined) {
     postObject["isVideo"] = true;
